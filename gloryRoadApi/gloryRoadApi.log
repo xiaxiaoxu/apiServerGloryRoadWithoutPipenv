@@ -1,0 +1,6 @@
+2019-06-07 17:32:45 test_api.py[line:105] INFO User.query.all(): []
+2019-06-07 17:32:47 test_api.py[line:112] INFO resp of test_login_user_existed: {'token': '92cc94d1c876428caac9e88233839c9f', 'code': '00', 'userid': 26, 'login_time': '2019-06-07 17:32:47'}
+2019-06-07 17:32:47 test_api.py[line:96] INFO User.query.all(): [<table User=> id: 26 username:'wulao98' password:'wulaoshi2019' email:'wulao@qq.com' token : '92cc94d1c876428caac9e88233839c9f' loginTime:'2019-06-07 17:32:47'>]
+2019-06-07 17:32:48 test_api.py[line:100] INFO resp of test_login_user_not_existed: {'code': '02', 'message': '参数值不合法，用户不存在'}
+2019-06-07 17:32:50 test_api.py[line:91] INFO resp of test_register_user_existed: {'code': '01', 'message': '参数值不合法，用户名已存在'}
+2019-06-07 17:32:52 test_api.py[line:83] INFO resp of test_retister_user_not_existed: {'code': '00', 'userid': 28, 'message': '成功'}

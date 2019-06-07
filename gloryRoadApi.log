@@ -1,0 +1,148 @@
+2019-06-07 17:32:26 DBInitialize.py[line:16] INFO The database name we need to initialize is : api16
+2019-06-07 17:32:26 DBInitialize.py[line:20] INFO Try to initialize database attempt times: 1
+2019-06-07 17:32:26 DBInitialize.py[line:22] INFO Whether database api16 exists? : True
+2019-06-07 17:32:26 DBInitialize.py[line:44] INFO Try to initialize tables attempt times: 1
+2019-06-07 17:32:26 DBInitialize.py[line:51] INFO Try to find table User: None
+2019-06-07 17:32:26 DBInitialize.py[line:52] INFO Try to find table UserBlog: <table UserBlog=> articleId: 2 blogTitle:'dddddd' blogContent:'HttpRunner is a api test interface' user_id:None createTime : '2019-06-07 07:25:54' updateTime : None>
+2019-06-07 17:32:26 DBInitialize.py[line:53] INFO User and UserBlog table existed £¡
+2019-06-07 17:32:27 _internal.py[line:122] WARNING  * Debugger is active!
+2019-06-07 17:32:27 _internal.py[line:122] INFO  * Debugger PIN: 181-247-040
+2019-06-07 17:32:27 _internal.py[line:122] INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-06-07 17:32:46 register.py[line:26] INFO ########################[Register]########################
+2019-06-07 17:32:46 register.py[line:27] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:46 register.py[line:29] INFO json_data: {'username': 'wulao98', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-06-07 17:32:46 register.py[line:32] INFO username: wulao98
+2019-06-07 17:32:46 register.py[line:35] INFO userPassword: wulaoshi2019
+2019-06-07 17:32:46 register.py[line:38] INFO email: wulao@qq.com
+2019-06-07 17:32:46 register.py[line:40] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:46 register.py[line:41] INFO #####request: <Request 'http://localhost:5000/register/' [POST]> 
+2019-06-07 17:32:46 register.py[line:42] INFO #####request.json: {'username': 'wulao98', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-06-07 17:32:46 register.py[line:43] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-06-07 17:32:46 register.py[line:44] INFO #####request.host: localhost:5000 
+2019-06-07 17:32:46 register.py[line:45] INFO #####request.headers: Host: localhost:5000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 76
+Content-Type: application/json
+
+ 
+2019-06-07 17:32:46 register.py[line:46] INFO #####request.endpoint: register 
+2019-06-07 17:32:46 register.py[line:47] INFO #####request.data: b'{"username": "wulao98", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-06-07 17:32:46 register.py[line:48] INFO #####request.content_type: application/json 
+2019-06-07 17:32:46 register.py[line:49] INFO #####request.form: ImmutableMultiDict([]) 
+2019-06-07 17:32:46 register.py[line:51] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:46 _internal.py[line:122] INFO 127.0.0.1 - - [07/Jun/2019 17:32:46] "POST /register/ HTTP/1.1" 200 -
+2019-06-07 17:32:47 login.py[line:24] INFO ########################[Login]########################
+2019-06-07 17:32:47 login.py[line:25] INFO args.keys(): dict_keys(['username', 'password'])
+2019-06-07 17:32:47 login.py[line:27] INFO json_data: {'username': 'wulao98', 'password': '320c9fe1aed78f466d8e27eed99ac8cf'}
+2019-06-07 17:32:47 login.py[line:29] INFO username: wulao98
+2019-06-07 17:32:47 login.py[line:31] INFO userPassword: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-06-07 17:32:47 login.py[line:33] INFO neededParams: dict_keys(['username', 'password'])
+2019-06-07 17:32:47 login.py[line:35] INFO requestParams: dict_keys(['username', 'password']) 
+2019-06-07 17:32:47 login.py[line:41] INFO userToLogin: <table User=> id: 26 username:'wulao98' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-06-07 17:32:47 util.py[line:76] INFO passwordFromPost: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-06-07 17:32:47 util.py[line:77] INFO usernameFromPost: wulao98
+2019-06-07 17:32:47 util.py[line:79] INFO userInDb: <table User=> id: 26 username:'wulao98' password:'wulaoshi2019' email:'wulao@qq.com' token : None loginTime:None>
+2019-06-07 17:32:47 util.py[line:82] INFO passwordInDb: wulaoshi2019
+2019-06-07 17:32:47 util.py[line:84] INFO passwordInDbMd5: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-06-07 17:32:47 login.py[line:49] INFO userTokenInDB: None
+2019-06-07 17:32:47 _internal.py[line:122] INFO 127.0.0.1 - - [07/Jun/2019 17:32:47] "POST /login/ HTTP/1.1" 200 -
+2019-06-07 17:32:48 login.py[line:24] INFO ########################[Login]########################
+2019-06-07 17:32:48 login.py[line:25] INFO args.keys(): dict_keys(['username', 'password'])
+2019-06-07 17:32:48 login.py[line:27] INFO json_data: {'username': 'wulao0', 'password': '320c9fe1aed78f466d8e27eed99ac8cf'}
+2019-06-07 17:32:48 login.py[line:29] INFO username: wulao0
+2019-06-07 17:32:48 login.py[line:31] INFO userPassword: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-06-07 17:32:48 login.py[line:33] INFO neededParams: dict_keys(['username', 'password'])
+2019-06-07 17:32:48 login.py[line:35] INFO requestParams: dict_keys(['username', 'password']) 
+2019-06-07 17:32:48 login.py[line:41] INFO userToLogin: None
+2019-06-07 17:32:48 _internal.py[line:122] INFO 127.0.0.1 - - [07/Jun/2019 17:32:48] "POST /login/ HTTP/1.1" 200 -
+2019-06-07 17:32:49 register.py[line:26] INFO ########################[Register]########################
+2019-06-07 17:32:49 register.py[line:27] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:49 register.py[line:29] INFO json_data: {'username': 'wulao65', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-06-07 17:32:49 register.py[line:32] INFO username: wulao65
+2019-06-07 17:32:49 register.py[line:35] INFO userPassword: wulaoshi2019
+2019-06-07 17:32:49 register.py[line:38] INFO email: wulao@qq.com
+2019-06-07 17:32:49 register.py[line:40] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:49 register.py[line:41] INFO #####request: <Request 'http://localhost:5000/register/' [POST]> 
+2019-06-07 17:32:49 register.py[line:42] INFO #####request.json: {'username': 'wulao65', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-06-07 17:32:49 register.py[line:43] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-06-07 17:32:49 register.py[line:44] INFO #####request.host: localhost:5000 
+2019-06-07 17:32:49 register.py[line:45] INFO #####request.headers: Host: localhost:5000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 76
+Content-Type: application/json
+
+ 
+2019-06-07 17:32:49 register.py[line:46] INFO #####request.endpoint: register 
+2019-06-07 17:32:49 register.py[line:47] INFO #####request.data: b'{"username": "wulao65", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-06-07 17:32:49 register.py[line:48] INFO #####request.content_type: application/json 
+2019-06-07 17:32:49 register.py[line:49] INFO #####request.form: ImmutableMultiDict([]) 
+2019-06-07 17:32:49 register.py[line:51] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:49 _internal.py[line:122] INFO 127.0.0.1 - - [07/Jun/2019 17:32:49] "POST /register/ HTTP/1.1" 200 -
+2019-06-07 17:32:50 register.py[line:26] INFO ########################[Register]########################
+2019-06-07 17:32:50 register.py[line:27] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:50 register.py[line:29] INFO json_data: {'username': 'wulao65', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-06-07 17:32:50 register.py[line:32] INFO username: wulao65
+2019-06-07 17:32:50 register.py[line:35] INFO userPassword: wulaoshi2019
+2019-06-07 17:32:50 register.py[line:38] INFO email: wulao@qq.com
+2019-06-07 17:32:50 register.py[line:40] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:50 register.py[line:41] INFO #####request: <Request 'http://localhost:5000/register/' [POST]> 
+2019-06-07 17:32:50 register.py[line:42] INFO #####request.json: {'username': 'wulao65', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-06-07 17:32:50 register.py[line:43] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-06-07 17:32:50 register.py[line:44] INFO #####request.host: localhost:5000 
+2019-06-07 17:32:50 register.py[line:45] INFO #####request.headers: Host: localhost:5000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 76
+Content-Type: application/json
+
+ 
+2019-06-07 17:32:50 register.py[line:46] INFO #####request.endpoint: register 
+2019-06-07 17:32:50 register.py[line:47] INFO #####request.data: b'{"username": "wulao65", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-06-07 17:32:50 register.py[line:48] INFO #####request.content_type: application/json 
+2019-06-07 17:32:50 register.py[line:49] INFO #####request.form: ImmutableMultiDict([]) 
+2019-06-07 17:32:50 register.py[line:51] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:50 _internal.py[line:122] INFO 127.0.0.1 - - [07/Jun/2019 17:32:50] "POST /register/ HTTP/1.1" 200 -
+2019-06-07 17:32:51 register.py[line:26] INFO ########################[Register]########################
+2019-06-07 17:32:51 register.py[line:27] INFO self.args.keys(): dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:51 register.py[line:29] INFO json_data: {'username': 'wulao53', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'}
+2019-06-07 17:32:51 register.py[line:32] INFO username: wulao53
+2019-06-07 17:32:51 register.py[line:35] INFO userPassword: wulaoshi2019
+2019-06-07 17:32:51 register.py[line:38] INFO email: wulao@qq.com
+2019-06-07 17:32:51 register.py[line:40] INFO neededParams: dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:51 register.py[line:41] INFO #####request: <Request 'http://localhost:5000/register/' [POST]> 
+2019-06-07 17:32:51 register.py[line:42] INFO #####request.json: {'username': 'wulao53', 'password': 'wulaoshi2019', 'email': 'wulao@qq.com'} 
+2019-06-07 17:32:51 register.py[line:43] INFO #####dir(request): ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__enter__', '__eq__', '__exit__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_cached_data', '_cached_json', '_get_data_for_json', '_get_file_stream', '_get_stream_for_parsing', '_load_form_data', '_parse_content_type', '_parsed_content_type', 'accept_charsets', 'accept_encodings', 'accept_languages', 'accept_mimetypes', 'access_route', 'application', 'args', 'authorization', 'base_url', 'blueprint', 'cache_control', 'charset', 'close', 'content_encoding', 'content_length', 'content_md5', 'content_type', 'cookies', 'data', 'date', 'dict_storage_class', 'disable_data_descriptor', 'encoding_errors', 'endpoint', 'environ', 'files', 'form', 'form_data_parser_class', 'from_values', 'full_path', 'get_data', 'get_json', 'headers', 'host', 'host_url', 'if_match', 'if_modified_since', 'if_none_match', 'if_range', 'if_unmodified_since', 'input_stream', 'is_json', 'is_multiprocess', 'is_multithread', 'is_run_once', 'is_secure', 'is_xhr', 'json', 'list_storage_class', 'make_form_data_parser', 'max_content_length', 'max_form_memory_size', 'max_forwards', 'method', 'mimetype', 'mimetype_params', 'on_json_loading_failed', 'parameter_storage_class', 'path', 'pragma', 'query_string', 'range', 'referrer', 'remote_addr', 'remote_user', 'routing_exception', 'scheme', 'script_root', 'shallow', 'stream', 'trusted_hosts', 'unparsed_arguments', 'url', 'url_charset', 'url_root', 'url_rule', 'user_agent', 'values', 'view_args', 'want_form_data_parsed'] 
+2019-06-07 17:32:51 register.py[line:44] INFO #####request.host: localhost:5000 
+2019-06-07 17:32:51 register.py[line:45] INFO #####request.headers: Host: localhost:5000
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Length: 76
+Content-Type: application/json
+
+ 
+2019-06-07 17:32:51 register.py[line:46] INFO #####request.endpoint: register 
+2019-06-07 17:32:51 register.py[line:47] INFO #####request.data: b'{"username": "wulao53", "password": "wulaoshi2019", "email": "wulao@qq.com"}' 
+2019-06-07 17:32:51 register.py[line:48] INFO #####request.content_type: application/json 
+2019-06-07 17:32:51 register.py[line:49] INFO #####request.form: ImmutableMultiDict([]) 
+2019-06-07 17:32:51 register.py[line:51] INFO requestParams: dict_keys(['username', 'password', 'email'])
+2019-06-07 17:32:52 _internal.py[line:122] INFO 127.0.0.1 - - [07/Jun/2019 17:32:52] "POST /register/ HTTP/1.1" 200 -
+2019-06-07 17:41:59 create.py[line:26] INFO ########################[Create]########################
+2019-06-07 17:41:59 create.py[line:27] INFO self.args.keys(): dict_keys(['userid', 'token', 'title', 'content'])
+2019-06-07 17:41:59 create.py[line:30] INFO userid: 2
+2019-06-07 17:41:59 create.py[line:32] INFO userToken: 4282a87824884246aa0d8ef6974bbbf5
+2019-06-07 17:41:59 create.py[line:34] INFO blogTitle: dddddd
+2019-06-07 17:41:59 create.py[line:36] INFO blogContent: HttpRunner is a api test interface
+2019-06-07 17:41:59 create.py[line:38] INFO neededParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-06-07 17:41:59 create.py[line:40] INFO requestParams: dict_keys(['userid', 'token', 'title', 'content'])
+2019-06-07 17:41:59 create.py[line:48] INFO getUserInDB: None
+2019-06-07 17:41:59 _internal.py[line:122] INFO 127.0.0.1 - - [07/Jun/2019 17:41:59] "POST /create/ HTTP/1.1" 200 -

@@ -62,7 +62,7 @@ class Login(Resource):
                     return {"code": "02", "message": u"参数值不合法，用户不存在"}
 
             else:
-                return {"code": "03","message": u"参数错误，可能原因：参数少传了、多传了、写错了"}
+                return {"code": "03","message": u"参数错误，可能原因：参数少传了、多传了、写错了、参数值为空"}
 
         except Exception as e:
             logger.error("error of login: %s" % e)

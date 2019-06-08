@@ -26,13 +26,13 @@ class Create(Resource):
             logger.info("########################[Create]########################")
             logger.info("self.args.keys(): %s" % self.args.keys())
             json_data = request.get_json(force=True)
-            userid = json_data['userid']
+            userid = json_data['userid'] if ('userid' in json_data.keys()) else ""
             logger.info("userid: %s" % userid)
-            userToken = json_data['token']
+            userToken = json_data['token'] if ('token' in json_data.keys()) else ""
             logger.info("userToken: %s" % userToken)
-            blogTitle = json_data['title']
+            blogTitle = json_data['title'] if ('title' in json_data.keys()) else ""
             logger.info("blogTitle: %s" % blogTitle)
-            blogContent = json_data['content']
+            blogContent = json_data['content'] if ('content' in json_data.keys()) else ""
             logger.info("blogContent: %s" % blogContent)
             neededParams = self.args.keys()  # 记录self.reqparse.add_argument中添加的参数列表
             logger.info("neededParams: %s" % neededParams)
@@ -87,7 +87,7 @@ class Create(Resource):
                     return {"code": "02", "message": u"参数值不合法，用户不存在"}
             else:
                 #参数没传全，或参数写错了，或参数多了
-                return {"code": "03", "message": u"参数错误，可能原因：参数少传了、多传了、写错了、值为空"}
+                return {"code": "03", "message": u"参数错误，可能原因：参数少传了、多传了、写错了、参数值为空"}
 
         except Exception as e:
             logger.info("error of create: %s" % e)

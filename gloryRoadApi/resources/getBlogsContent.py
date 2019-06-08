@@ -58,10 +58,10 @@ class GetBlogsContent(Resource):
                     return responseDictFilled
                 # 没有传后边的id，则提示articleId没有传articleIdResultString
                 else:
-                    return {"code": "02", "message": u"参数值不合法，articleId没有传"}
+                    return {"code": "02", "message": u"参数值不合法，url中'articleIds='后没有传值"}
             # 没匹配到，提示articleIds=没有传值
             else:
-                return {"code": "02", "message": u"参数值不合法，articleIds=没有传值"}
+                return {"code": "02", "message": u"参数值不合法，url中没携带'articleIds='参数"}
 
         except Exception as e:
             logger.error("error of getBlogContent: %s" % e)

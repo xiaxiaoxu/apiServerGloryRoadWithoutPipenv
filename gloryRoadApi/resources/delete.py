@@ -27,11 +27,11 @@ class Delete(Resource):
             logger.info("########################[delete]########################")
             logger.info("self.args.keys(): %s" % self.args.keys())
             json_data = request.get_json(force=True)
-            userid = json_data['userid']
+            userid = json_data['userid'] if ('userid' in json_data.keys()) else ""
             logger.info("userid: %s" % userid)
-            userToken = json_data['token']
+            userToken = json_data['token'] if ('token' in json_data.keys()) else ""
             logger.info("userToken: %s" % userToken)
-            articleIdList = json_data['articleId']
+            articleIdList = json_data['articleId'] if ('articleId' in json_data.keys()) else ""
             logger.info("articleIdList: %s" % articleIdList)
             neededParams = self.args.keys()  # 记录self.reqparse.add_argument中添加的参数列表
             logger.info("neededParams: %s" % neededParams)
@@ -77,7 +77,7 @@ class Delete(Resource):
                                     # 遍历完articleIdList，id都存在，且都做了删除，则提交commit
                                     db.session.commit()
                                     # 数据库提交删除后，返回结果
-                                    return {"userid": userid, "token": userToken, "articleId": articleIdList}
+                                    return {"articleId": articleIdList, "code": "00", "userid": userid}
 
                                 # articleId的值不是列表，提示articleId传的不是列表
                                 else:
@@ -95,7 +95,7 @@ class Delete(Resource):
                     return {"code": "02", "message": u"参数值不合法，用户不存在"}
             # 参数没传全，或参数写错了，或参数多了
             else:
-                return {"code": "03", "message": u"参数错误，可能原因：参数少传了、多传了、写错了、值为空"}
+                return {"code": "03", "message": u"参数错误，可能原因：参数少传了、多传了、写错了、参数值为空"}
 
         except Exception as e:
             logger.error("error of delete: %s" % e)

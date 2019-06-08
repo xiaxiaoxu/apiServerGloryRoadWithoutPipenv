@@ -27,9 +27,9 @@ class GetBlogsOfUser(Resource):
             logger.info("self.args.keys(): %s" % self.args.keys())
             json_data = request.get_json(force=True)
             logger.info("json_data: %s" % json_data)
-            userid = json_data['userid']
+            userid = json_data['userid'] if ('userid' in json_data.keys()) else ""
             logger.info("userid: %s" % userid)
-            userToken = json_data['token']
+            userToken = json_data['token'] if ('token' in json_data.keys()) else ""
             logger.info("userToken: %s" % userToken)
             offset = json_data['offset'] if ('offset' in json_data.keys()) else ""
             logger.info("offset: %s" % offset)
@@ -117,7 +117,7 @@ class GetBlogsOfUser(Resource):
                     return {"code": "02", "message": u"参数值不合法，用户不存在"}
             # 参数没传全，或参数写错了，或参数多了
             else:
-                return {"code": "03", "message": u"参数错误，可能原因：参数少传了、多传了、写错了、值为空"}
+                return {"code": "03", "message": u"参数错误，可能原因：参数少传了、多传了、写错了、参数值为空"}
 
         except Exception as e:
             logger.error("error of update: %s" % e)

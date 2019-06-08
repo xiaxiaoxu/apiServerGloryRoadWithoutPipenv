@@ -33,7 +33,7 @@ class Register(Resource):
             #userPassword = sel.args['password']
             userPassword = json_data['password'] if ('password' in json_data.keys()) else ""
             logger.info("userPassword: %s" % userPassword)
-            email = json_data['email']
+            email = json_data['email'] if ('email' in json_data.keys()) else ""
             #email = self.args['email']
             logger.info("email: %s" % email)
             neededParams = self.args.keys()
@@ -70,7 +70,7 @@ class Register(Resource):
                 else:
                     return {"code": "02", "message": u"参数值不合法，不符合约束条件"}
             else:
-                return {"code": "03","message": u"参数错误，可能原因：参数少传了、多传了、写错了、值为空"}
+                return {"code": "03","message": u"参数错误，可能原因：参数少传了、多传了、写错了、参数值为空"}
 
         except Exception as e:
             logger.error("error of register: %s" % e)

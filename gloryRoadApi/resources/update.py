@@ -23,8 +23,8 @@ class Update(Resource):
         self.reqparse.add_argument('content', type = str, help = u"内容校验错误", location = 'json')
         self.args = self.reqparse.parse_args()
 
-    #处理新增博文post请求
-    def post(self):
+    #处理新增博文put请求
+    def put(self):
         try:
             logger.info("########################[Update]########################")
             logger.info("self.args.keys(): %s" % self.args.keys())

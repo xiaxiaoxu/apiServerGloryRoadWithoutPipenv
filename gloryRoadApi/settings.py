@@ -19,5 +19,6 @@ SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URI', dbUrl) # 从环境变量里�
 
 
 if __name__ == '__main__':
+    print(__file__)
     print(project_path)
 

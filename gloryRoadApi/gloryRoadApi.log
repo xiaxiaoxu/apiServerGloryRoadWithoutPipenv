@@ -1,146 +1,149 @@
-2019-06-09 21:07:30 unittest_for_gloryroad.py[line:147] INFO ############test_create_blog############
-2019-06-09 21:07:30 unittest_for_gloryroad.py[line:149] INFO username: wulao795
-2019-06-09 21:07:30 unittest_for_gloryroad.py[line:151] INFO passwordToRegister
-2019-06-09 21:07:30 unittest_for_gloryroad.py[line:29] INFO register_user->url: http://39.106.41.11:8080/register/
-2019-06-09 21:07:30 unittest_for_gloryroad.py[line:33] INFO requestData of register: {"username": "wulao795", "password": "wulaoshi2019", "email": "wulao@qq.com"}
-2019-06-09 21:07:30 unittest_for_gloryroad.py[line:35] INFO resp of register: {'code': '00', 'userid': 3241}
-2019-06-09 21:07:30 unittest_for_gloryroad.py[line:155] INFO respOfRegister: {'code': '00', 'userid': 3241}
-2019-06-09 21:07:30 unittest_for_gloryroad.py[line:157] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
-2019-06-09 21:07:30 unittest_for_gloryroad.py[line:41] INFO request data of login_user: {"username": "wulao795", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:161] INFO respOfLogin: {'token': '75b8396a826bbd870f3476e6f26aec33', 'code': '00', 'userid': 3241, 'login_time': '2019-06-09 21:07:30'}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:163] INFO useridOfRegister: 3241
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:165] INFO tokenOfLogin: 75b8396a826bbd870f3476e6f26aec33
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:48] INFO request data of create_blog: {"userid": 3241, "token": "75b8396a826bbd870f3476e6f26aec33", "title": "mysql", "content": "mysql learn"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:169] INFO resp of test_create_blog: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 3241}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:348] INFO ############test_delete_blogs############
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:350] INFO passwordToRegister
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:353] INFO username: wulao273
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:355] INFO passwordToRegister: wulaoshi2019
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:29] INFO register_user->url: http://39.106.41.11:8080/register/
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:33] INFO requestData of register: {"username": "wulao273", "password": "wulaoshi2019", "email": "wulao@qq.com"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:35] INFO resp of register: {'code': '00', 'userid': 3242}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:357] INFO respOfRegister: {'code': '00', 'userid': 3242}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:361] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:41] INFO request data of login_user: {"username": "wulao273", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:365] INFO respOfLogin: {'token': '1f890f82bb58142c2e9c75e0cf7615e8', 'code': '00', 'userid': 3242, 'login_time': '2019-06-09 21:07:30'}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:368] INFO useridOfUser: 3242
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:371] INFO tokenOfUser: 1f890f82bb58142c2e9c75e0cf7615e8
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:48] INFO request data of create_blog: {"userid": 3242, "token": "1f890f82bb58142c2e9c75e0cf7615e8", "title": "mysql", "content": "mysql learn"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:375] INFO resp of create_blog1: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 3242}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:48] INFO request data of create_blog: {"userid": 3242, "token": "1f890f82bb58142c2e9c75e0cf7615e8", "title": "mysql", "content": "mysql learn"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:378] INFO resp of create_blog2: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 3242}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:48] INFO request data of create_blog: {"userid": 3242, "token": "1f890f82bb58142c2e9c75e0cf7615e8", "title": "mysql", "content": "mysql learn"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:381] INFO resp of create_blog3: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 3242}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:65] INFO request data of get_blogs_of_user: {"userid": 3242, "token": "1f890f82bb58142c2e9c75e0cf7615e8"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:385] INFO respOfGetBlogsOfUser: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1362, 'owner': 3242, 'posted_on': '2019-06-09 21:07:30'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1363, 'owner': 3242, 'posted_on': '2019-06-09 21:07:30'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1364, 'owner': 3242, 'posted_on': '2019-06-09 21:07:30'}], 'code': '00', 'userid': 3242}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:386] INFO respOfGetBlogsOfUser.text: {"data": [{"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 1362, "owner": 3242, "posted_on": "2019-06-09 21:07:30"}, {"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 1363, "owner": 3242, "posted_on": "2019-06-09 21:07:30"}, {"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 1364, "owner": 3242, "posted_on": "2019-06-09 21:07:30"}], "code": "00", "userid": 3242}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:390] INFO reFindArticleIdsRes: ['1362', '1363', '1364']
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:77] INFO url for delete: http://39.106.41.11:8080/delete/
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:78] INFO articleIdList: [1362, 1363, 1364]
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:80] INFO request data of delete_blog: {"userid": 3242, "token": "1f890f82bb58142c2e9c75e0cf7615e8", "articleId": [1362, 1363, 1364]}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:396] INFO respOfDeleteBlogs: {'articleId': [1362, 1363, 1364], 'code': '00', 'userid': 3242}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:252] INFO ############test_get_blog_content############
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:255] INFO username: wulao507
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:257] INFO passwordToRegister: wulaoshi2019
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:29] INFO register_user->url: http://39.106.41.11:8080/register/
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:33] INFO requestData of register: {"username": "wulao507", "password": "wulaoshi2019", "email": "wulao@qq.com"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:35] INFO resp of register: {'code': '00', 'userid': 3243}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:259] INFO respOfRegister: {'code': '00', 'userid': 3243}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:263] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:41] INFO request data of login_user: {"username": "wulao507", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:267] INFO respOfLogin: {'token': 'b61d4fc91d6612005e402cefcc441e08', 'code': '00', 'userid': 3243, 'login_time': '2019-06-09 21:07:30'}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:270] INFO useridOfUser: 3243
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:273] INFO tokenOfUser: b61d4fc91d6612005e402cefcc441e08
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:48] INFO request data of create_blog: {"userid": 3243, "token": "b61d4fc91d6612005e402cefcc441e08", "title": "mysql", "content": "mysql learn"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:277] INFO resp of create_blog: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 3243}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:65] INFO request data of get_blogs_of_user: {"userid": 3243, "token": "b61d4fc91d6612005e402cefcc441e08"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:281] INFO respOfGetBlogsOfUser: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1365, 'owner': 3243, 'posted_on': '2019-06-09 21:07:30'}], 'code': '00', 'userid': 3243}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:283] INFO articleId: 1365
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:287] INFO respOfGetBlogContent: <Response [200]>
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:294] INFO ############test_get_blog_content############
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:298] INFO username: wulao27
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:300] INFO passwordToRegister: wulaoshi2019
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:29] INFO register_user->url: http://39.106.41.11:8080/register/
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:33] INFO requestData of register: {"username": "wulao27", "password": "wulaoshi2019", "email": "wulao@qq.com"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:35] INFO resp of register: {'code': '00', 'userid': 3244}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:302] INFO respOfRegister: {'code': '00', 'userid': 3244}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:306] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:41] INFO request data of login_user: {"username": "wulao27", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:310] INFO respOfLogin: {'token': '617ffbabb0e154feceaf9ef3f3e2f77d', 'code': '00', 'userid': 3244, 'login_time': '2019-06-09 21:07:31'}
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:313] INFO useridOfUser: 3244
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:316] INFO tokenOfUser: 617ffbabb0e154feceaf9ef3f3e2f77d
-2019-06-09 21:07:31 unittest_for_gloryroad.py[line:48] INFO request data of create_blog: {"userid": 3244, "token": "617ffbabb0e154feceaf9ef3f3e2f77d", "title": "mysql", "content": "mysql learn"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:320] INFO resp of create_blog1: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 3244}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:48] INFO request data of create_blog: {"userid": 3244, "token": "617ffbabb0e154feceaf9ef3f3e2f77d", "title": "mysql", "content": "mysql learn"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:323] INFO resp of create_blog2: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 3244}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:48] INFO request data of create_blog: {"userid": 3244, "token": "617ffbabb0e154feceaf9ef3f3e2f77d", "title": "mysql", "content": "mysql learn"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:326] INFO resp of create_blog3: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 3244}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:65] INFO request data of get_blogs_of_user: {"userid": 3244, "token": "617ffbabb0e154feceaf9ef3f3e2f77d"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:330] INFO respOfGetBlogsOfUser: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1366, 'owner': 3244, 'posted_on': '2019-06-09 21:07:31'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1367, 'owner': 3244, 'posted_on': '2019-06-09 21:07:31'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1368, 'owner': 3244, 'posted_on': '2019-06-09 21:07:31'}], 'code': '00', 'userid': 3244}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:331] INFO respOfGetBlogsOfUser.text: {"data": [{"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 1366, "owner": 3244, "posted_on": "2019-06-09 21:07:31"}, {"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 1367, "owner": 3244, "posted_on": "2019-06-09 21:07:31"}, {"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 1368, "owner": 3244, "posted_on": "2019-06-09 21:07:31"}], "code": "00", "userid": 3244}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:335] INFO reFindArticleIdsRes: ['1366', '1367', '1368']
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:337] INFO articleIdsRes: 1366,1367,1368
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:58] INFO url of get_blogs_content: http://39.106.41.11:8080/getBlogsContent/articleIds=1366,1367,1368
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:341] INFO respOfGetBlogsContent: {'code': '00', 'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1366, 'owner': 3244, 'posted_on': '2019-06-09 21:07:31'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1367, 'owner': 3244, 'posted_on': '2019-06-09 21:07:31'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1368, 'owner': 3244, 'posted_on': '2019-06-09 21:07:31'}]}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:175] INFO ############test_get_blogs_of_user############
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:178] INFO username: wulao294
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:180] INFO passwordToRegister: wulaoshi2019
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:29] INFO register_user->url: http://39.106.41.11:8080/register/
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:33] INFO requestData of register: {"username": "wulao294", "password": "wulaoshi2019", "email": "wulao@qq.com"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:35] INFO resp of register: {'code': '00', 'userid': 3245}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:182] INFO respOfRegister: {'code': '00', 'userid': 3245}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:186] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:41] INFO request data of login_user: {"username": "wulao294", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:190] INFO respOfLogin: {'token': '9dfc963ba34bf05d8de58067ac4018e5', 'code': '00', 'userid': 3245, 'login_time': '2019-06-09 21:07:31'}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:193] INFO useridOfUser: 3245
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:196] INFO tokenOfUser: 9dfc963ba34bf05d8de58067ac4018e5
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:48] INFO request data of create_blog: {"userid": 3245, "token": "9dfc963ba34bf05d8de58067ac4018e5", "title": "mysql", "content": "mysql learn"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:200] INFO resp of create_blog: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 3245}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:65] INFO request data of get_blogs_of_user: {"userid": 3245, "token": "9dfc963ba34bf05d8de58067ac4018e5"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:204] INFO respOfGetBlogsOfUser: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1369, 'owner': 3245, 'posted_on': '2019-06-09 21:07:31'}], 'code': '00', 'userid': 3245}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:129] INFO ############test_create_blog############
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:29] INFO register_user->url: http://39.106.41.11:8080/register/
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:33] INFO requestData of register: {"username": "wulao60", "password": "wulaoshi2019", "email": "wulao@qq.com"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:35] INFO resp of register: {'code': '00', 'userid': 3246}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:136] INFO username: wulao60
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:137] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:41] INFO request data of login_user: {"username": "wulao60", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:141] INFO resp of test_login_user_existed: {'token': '2a5b9cc9332082a416ee0fba31388afc', 'code': '00', 'userid': 3246, 'login_time': '2019-06-09 21:07:31'}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:116] INFO ############test_login_user_not_existed############
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:41] INFO request data of login_user: {"username": "wulao612", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:122] INFO resp of test_login_user_not_existed: {'code': '03', 'params': {'username': 'wulao612', 'password': '320c9fe1aed78f466d8e27eed99ac8cf'}}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:106] INFO ############test_register_user_existed############
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:29] INFO register_user->url: http://39.106.41.11:8080/register/
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:33] INFO requestData of register: {"username": "wulao92", "password": "wulaoshi2019", "email": "wulao@qq.com"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:35] INFO resp of register: {'code': '00', 'userid': 3247}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:29] INFO register_user->url: http://39.106.41.11:8080/register/
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:33] INFO requestData of register: {"username": "wulao92", "password": "wulaoshi2019", "email": "wulao@qq.com"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:35] INFO resp of register: {'username': 'wulao92', 'code': '01'}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:110] INFO resp of test_register_user_existed: {'username': 'wulao92', 'code': '01'}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:85] INFO ############test_register_user_not_existed############
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:88] INFO passwordToRegister
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:91] INFO try times: 1
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:94] INFO username: wulao794
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:29] INFO register_user->url: http://39.106.41.11:8080/register/
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:33] INFO requestData of register: {"username": "wulao794", "password": "wulaoshi2019", "email": "wulao@qq.com"}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:35] INFO resp of register: {'code': '00', 'userid': 3248}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:96] INFO resp of test_register_user_not_existed: {'code': '00', 'userid': 3248}
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:211] INFO ############test_update_blog############
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:214] INFO username: wulao221
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:216] INFO passwordToRegister: wulaoshi2019
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:29] INFO register_user->url: http://39.106.41.11:8080/register/
-2019-06-09 21:07:32 unittest_for_gloryroad.py[line:33] INFO requestData of register: {"username": "wulao221", "password": "wulaoshi2019", "email": "wulao@qq.com"}
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:35] INFO resp of register: {'code': '00', 'userid': 3249}
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:218] INFO respOfRegister: {'code': '00', 'userid': 3249}
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:222] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:41] INFO request data of login_user: {"username": "wulao221", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:226] INFO respOfLogin: {'token': '9f89eda8a803e49f2ad794922bd4c920', 'code': '00', 'userid': 3249, 'login_time': '2019-06-09 21:07:32'}
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:229] INFO useridOfUser: 3249
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:232] INFO tokenOfUser: 9f89eda8a803e49f2ad794922bd4c920
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:48] INFO request data of create_blog: {"userid": 3249, "token": "9f89eda8a803e49f2ad794922bd4c920", "title": "mysql", "content": "mysql learn"}
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:236] INFO resp of create_blog: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 3249}
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:65] INFO request data of get_blogs_of_user: {"userid": 3249, "token": "9f89eda8a803e49f2ad794922bd4c920"}
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:239] INFO respOfGetBlogsOfUser: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 1370, 'owner': 3249, 'posted_on': '2019-06-09 21:07:32'}], 'code': '00', 'userid': 3249}
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:241] INFO articleId: 1370
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:71] INFO request data of update_blog: {"userid": 3249, "token": "9f89eda8a803e49f2ad794922bd4c920", "articleId": 1370, "title": "update title", "content": "update blog content"}
-2019-06-09 21:07:33 unittest_for_gloryroad.py[line:246] INFO resp of update_blog: <Response [200]>
+2019-06-11 08:17:13 test_api.py[line:406] INFO reportPath: D:\flask\apiServerGloryRoad0607\gloryRoadApi\report\report.html
+2019-06-11 08:17:13 test_api.py[line:151] INFO ############test_create_blog############
+2019-06-11 08:17:13 test_api.py[line:153] INFO username: wulao252
+2019-06-11 08:17:13 test_api.py[line:155] INFO passwordToRegister
+2019-06-11 08:17:13 test_api.py[line:33] INFO register_user->url: http://localhost:8000/register/
+2019-06-11 08:17:13 test_api.py[line:37] INFO requestData of register: {"username": "wulao252", "password": "wulaoshi2019", "email": "wulao@qq.com"}
+2019-06-11 08:17:14 test_api.py[line:39] INFO resp of register: {'code': '00', 'userid': 97, 'message': '成功'}
+2019-06-11 08:17:14 test_api.py[line:159] INFO respOfRegister: {'code': '00', 'userid': 97, 'message': '成功'}
+2019-06-11 08:17:14 test_api.py[line:161] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-06-11 08:17:14 test_api.py[line:45] INFO request data of login_user: {"username": "wulao252", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
+2019-06-11 08:17:15 test_api.py[line:165] INFO respOfLogin: {'token': 'b660f44062f04c75b6dcc3e821a1e082', 'code': '00', 'userid': 97, 'login_time': '2019-06-11 08:17:15'}
+2019-06-11 08:17:15 test_api.py[line:167] INFO useridOfRegister: 97
+2019-06-11 08:17:15 test_api.py[line:169] INFO tokenOfLogin: b660f44062f04c75b6dcc3e821a1e082
+2019-06-11 08:17:15 test_api.py[line:52] INFO request data of create_blog: {"userid": 97, "token": "b660f44062f04c75b6dcc3e821a1e082", "title": "mysql", "content": "mysql learn"}
+2019-06-11 08:17:16 test_api.py[line:173] INFO resp of test_create_blog: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 97, 'articleId': 78}
+2019-06-11 08:17:16 test_api.py[line:352] INFO ############test_delete_blogs############
+2019-06-11 08:17:16 test_api.py[line:354] INFO passwordToRegister
+2019-06-11 08:17:16 test_api.py[line:357] INFO username: wulao196
+2019-06-11 08:17:16 test_api.py[line:359] INFO passwordToRegister: wulaoshi2019
+2019-06-11 08:17:16 test_api.py[line:33] INFO register_user->url: http://localhost:8000/register/
+2019-06-11 08:17:16 test_api.py[line:37] INFO requestData of register: {"username": "wulao196", "password": "wulaoshi2019", "email": "wulao@qq.com"}
+2019-06-11 08:17:18 test_api.py[line:39] INFO resp of register: {'code': '00', 'userid': 98, 'message': '成功'}
+2019-06-11 08:17:18 test_api.py[line:361] INFO respOfRegister: {'code': '00', 'userid': 98, 'message': '成功'}
+2019-06-11 08:17:18 test_api.py[line:365] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-06-11 08:17:18 test_api.py[line:45] INFO request data of login_user: {"username": "wulao196", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
+2019-06-11 08:17:19 test_api.py[line:369] INFO respOfLogin: {'token': '95ad8a99ff744ada92f83dd4c4fda038', 'code': '00', 'userid': 98, 'login_time': '2019-06-11 08:17:19'}
+2019-06-11 08:17:19 test_api.py[line:372] INFO useridOfUser: 98
+2019-06-11 08:17:19 test_api.py[line:375] INFO tokenOfUser: 95ad8a99ff744ada92f83dd4c4fda038
+2019-06-11 08:17:19 test_api.py[line:52] INFO request data of create_blog: {"userid": 98, "token": "95ad8a99ff744ada92f83dd4c4fda038", "title": "mysql", "content": "mysql learn"}
+2019-06-11 08:17:20 test_api.py[line:379] INFO resp of create_blog1: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 98, 'articleId': 79}
+2019-06-11 08:17:20 test_api.py[line:52] INFO request data of create_blog: {"userid": 98, "token": "95ad8a99ff744ada92f83dd4c4fda038", "title": "mysql", "content": "mysql learn"}
+2019-06-11 08:17:21 test_api.py[line:382] INFO resp of create_blog2: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 98, 'articleId': 80}
+2019-06-11 08:17:21 test_api.py[line:52] INFO request data of create_blog: {"userid": 98, "token": "95ad8a99ff744ada92f83dd4c4fda038", "title": "mysql", "content": "mysql learn"}
+2019-06-11 08:17:22 test_api.py[line:385] INFO resp of create_blog3: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 98, 'articleId': 81}
+2019-06-11 08:17:22 test_api.py[line:69] INFO request data of get_blogs_of_user: {"userid": 98, "token": "95ad8a99ff744ada92f83dd4c4fda038"}
+2019-06-11 08:17:23 test_api.py[line:389] INFO respOfGetBlogsOfUser: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 79, 'owner': 98, 'posted_on': '2019-06-11 08:17:20'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 80, 'owner': 98, 'posted_on': '2019-06-11 08:17:21'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 81, 'owner': 98, 'posted_on': '2019-06-11 08:17:22'}], 'code': '00', 'userid': 98}
+2019-06-11 08:17:23 test_api.py[line:390] INFO respOfGetBlogsOfUser.text: {"data": [{"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 79, "owner": 98, "posted_on": "2019-06-11 08:17:20"}, {"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 80, "owner": 98, "posted_on": "2019-06-11 08:17:21"}, {"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 81, "owner": 98, "posted_on": "2019-06-11 08:17:22"}], "code": "00", "userid": 98}
+
+2019-06-11 08:17:23 test_api.py[line:394] INFO reFindArticleIdsRes: ['79', '80', '81']
+2019-06-11 08:17:23 test_api.py[line:81] INFO url for delete: http://localhost:8000/delete/
+2019-06-11 08:17:23 test_api.py[line:82] INFO articleIdList: [79, 80, 81]
+2019-06-11 08:17:23 test_api.py[line:84] INFO request data of delete_blog: {"userid": 98, "token": "95ad8a99ff744ada92f83dd4c4fda038", "articleId": [79, 80, 81]}
+2019-06-11 08:17:24 test_api.py[line:400] INFO respOfDeleteBlogs: {'articleId': [79, 80, 81], 'code': '00', 'userid': 98}
+2019-06-11 08:17:24 test_api.py[line:256] INFO ############test_get_blog_content############
+2019-06-11 08:17:24 test_api.py[line:259] INFO username: wulao61
+2019-06-11 08:17:24 test_api.py[line:261] INFO passwordToRegister: wulaoshi2019
+2019-06-11 08:17:24 test_api.py[line:33] INFO register_user->url: http://localhost:8000/register/
+2019-06-11 08:17:24 test_api.py[line:37] INFO requestData of register: {"username": "wulao61", "password": "wulaoshi2019", "email": "wulao@qq.com"}
+2019-06-11 08:17:25 test_api.py[line:39] INFO resp of register: {'code': '01', 'message': '参数值不合法，用户名已存在'}
+2019-06-11 08:17:25 test_api.py[line:263] INFO respOfRegister: {'code': '01', 'message': '参数值不合法，用户名已存在'}
+2019-06-11 08:17:25 test_api.py[line:267] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-06-11 08:17:25 test_api.py[line:45] INFO request data of login_user: {"username": "wulao61", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
+2019-06-11 08:17:26 test_api.py[line:271] INFO respOfLogin: {'token': '42c234fe804c4606ad6fcf673e612cb5', 'code': '00', 'userid': 78, 'login_time': '2019-06-11 08:17:26'}
+2019-06-11 08:17:26 test_api.py[line:274] INFO useridOfUser: 78
+2019-06-11 08:17:26 test_api.py[line:277] INFO tokenOfUser: 42c234fe804c4606ad6fcf673e612cb5
+2019-06-11 08:17:26 test_api.py[line:52] INFO request data of create_blog: {"userid": 78, "token": "42c234fe804c4606ad6fcf673e612cb5", "title": "mysql", "content": "mysql learn"}
+2019-06-11 08:17:28 test_api.py[line:281] INFO resp of create_blog: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 78, 'articleId': 82}
+2019-06-11 08:17:28 test_api.py[line:69] INFO request data of get_blogs_of_user: {"userid": 78, "token": "42c234fe804c4606ad6fcf673e612cb5"}
+2019-06-11 08:17:29 test_api.py[line:285] INFO respOfGetBlogsOfUser: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 82, 'owner': 78, 'posted_on': '2019-06-11 08:17:27'}], 'code': '00', 'userid': 78}
+2019-06-11 08:17:29 test_api.py[line:287] INFO articleId: 82
+2019-06-11 08:17:30 test_api.py[line:291] INFO respOfGetBlogContent: <Response [200]>
+2019-06-11 08:17:30 test_api.py[line:298] INFO ############test_get_blog_content############
+2019-06-11 08:17:30 test_api.py[line:302] INFO username: wulao513
+2019-06-11 08:17:30 test_api.py[line:304] INFO passwordToRegister: wulaoshi2019
+2019-06-11 08:17:30 test_api.py[line:33] INFO register_user->url: http://localhost:8000/register/
+2019-06-11 08:17:30 test_api.py[line:37] INFO requestData of register: {"username": "wulao513", "password": "wulaoshi2019", "email": "wulao@qq.com"}
+2019-06-11 08:17:31 test_api.py[line:39] INFO resp of register: {'code': '00', 'userid': 99, 'message': '成功'}
+2019-06-11 08:17:31 test_api.py[line:306] INFO respOfRegister: {'code': '00', 'userid': 99, 'message': '成功'}
+2019-06-11 08:17:31 test_api.py[line:310] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-06-11 08:17:31 test_api.py[line:45] INFO request data of login_user: {"username": "wulao513", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
+2019-06-11 08:17:32 test_api.py[line:314] INFO respOfLogin: {'token': '430acd1c3bce43ed941b1390e1b58782', 'code': '00', 'userid': 99, 'login_time': '2019-06-11 08:17:32'}
+2019-06-11 08:17:32 test_api.py[line:317] INFO useridOfUser: 99
+2019-06-11 08:17:32 test_api.py[line:320] INFO tokenOfUser: 430acd1c3bce43ed941b1390e1b58782
+2019-06-11 08:17:32 test_api.py[line:52] INFO request data of create_blog: {"userid": 99, "token": "430acd1c3bce43ed941b1390e1b58782", "title": "mysql", "content": "mysql learn"}
+2019-06-11 08:17:33 test_api.py[line:324] INFO resp of create_blog1: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 99, 'articleId': 83}
+2019-06-11 08:17:33 test_api.py[line:52] INFO request data of create_blog: {"userid": 99, "token": "430acd1c3bce43ed941b1390e1b58782", "title": "mysql", "content": "mysql learn"}
+2019-06-11 08:17:34 test_api.py[line:327] INFO resp of create_blog2: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 99, 'articleId': 84}
+2019-06-11 08:17:34 test_api.py[line:52] INFO request data of create_blog: {"userid": 99, "token": "430acd1c3bce43ed941b1390e1b58782", "title": "mysql", "content": "mysql learn"}
+2019-06-11 08:17:35 test_api.py[line:330] INFO resp of create_blog3: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 99, 'articleId': 85}
+2019-06-11 08:17:35 test_api.py[line:69] INFO request data of get_blogs_of_user: {"userid": 99, "token": "430acd1c3bce43ed941b1390e1b58782"}
+2019-06-11 08:17:37 test_api.py[line:334] INFO respOfGetBlogsOfUser: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 83, 'owner': 99, 'posted_on': '2019-06-11 08:17:33'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 84, 'owner': 99, 'posted_on': '2019-06-11 08:17:34'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 85, 'owner': 99, 'posted_on': '2019-06-11 08:17:35'}], 'code': '00', 'userid': 99}
+2019-06-11 08:17:37 test_api.py[line:335] INFO respOfGetBlogsOfUser.text: {"data": [{"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 83, "owner": 99, "posted_on": "2019-06-11 08:17:33"}, {"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 84, "owner": 99, "posted_on": "2019-06-11 08:17:34"}, {"update_time": null, "title": "mysql", "content": "mysql learn", "articleId": 85, "owner": 99, "posted_on": "2019-06-11 08:17:35"}], "code": "00", "userid": 99}
+
+2019-06-11 08:17:37 test_api.py[line:339] INFO reFindArticleIdsRes: ['83', '84', '85']
+2019-06-11 08:17:37 test_api.py[line:341] INFO articleIdsRes: 83,84,85
+2019-06-11 08:17:37 test_api.py[line:62] INFO url of get_blogs_content: http://localhost:8000/getBlogsContent/articleIds=83,84,85
+2019-06-11 08:17:38 test_api.py[line:345] INFO respOfGetBlogsContent: {'code': '00', 'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 83, 'owner': 99, 'posted_on': '2019-06-11 08:17:33'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 84, 'owner': 99, 'posted_on': '2019-06-11 08:17:34'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 85, 'owner': 99, 'posted_on': '2019-06-11 08:17:35'}]}
+2019-06-11 08:17:38 test_api.py[line:179] INFO ############test_get_blogs_of_user############
+2019-06-11 08:17:38 test_api.py[line:182] INFO username: wulao57
+2019-06-11 08:17:38 test_api.py[line:184] INFO passwordToRegister: wulaoshi2019
+2019-06-11 08:17:38 test_api.py[line:33] INFO register_user->url: http://localhost:8000/register/
+2019-06-11 08:17:38 test_api.py[line:37] INFO requestData of register: {"username": "wulao57", "password": "wulaoshi2019", "email": "wulao@qq.com"}
+2019-06-11 08:17:39 test_api.py[line:39] INFO resp of register: {'code': '01', 'message': '参数值不合法，用户名已存在'}
+2019-06-11 08:17:39 test_api.py[line:186] INFO respOfRegister: {'code': '01', 'message': '参数值不合法，用户名已存在'}
+2019-06-11 08:17:39 test_api.py[line:190] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-06-11 08:17:39 test_api.py[line:45] INFO request data of login_user: {"username": "wulao57", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
+2019-06-11 08:17:40 test_api.py[line:194] INFO respOfLogin: {'token': 'ddd2547f232d4aa3879ef14198d39a9a', 'code': '00', 'userid': 51, 'login_time': '2019-06-11 08:17:40'}
+2019-06-11 08:17:40 test_api.py[line:197] INFO useridOfUser: 51
+2019-06-11 08:17:40 test_api.py[line:200] INFO tokenOfUser: ddd2547f232d4aa3879ef14198d39a9a
+2019-06-11 08:17:40 test_api.py[line:52] INFO request data of create_blog: {"userid": 51, "token": "ddd2547f232d4aa3879ef14198d39a9a", "title": "mysql", "content": "mysql learn"}
+2019-06-11 08:17:41 test_api.py[line:204] INFO resp of create_blog: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 51, 'articleId': 86}
+2019-06-11 08:17:41 test_api.py[line:69] INFO request data of get_blogs_of_user: {"userid": 51, "token": "ddd2547f232d4aa3879ef14198d39a9a"}
+2019-06-11 08:17:42 test_api.py[line:208] INFO respOfGetBlogsOfUser: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 63, 'owner': 51, 'posted_on': '2019-06-11 07:33:17'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 64, 'owner': 51, 'posted_on': '2019-06-11 07:33:17'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 65, 'owner': 51, 'posted_on': '2019-06-11 07:33:17'}, {'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 86, 'owner': 51, 'posted_on': '2019-06-11 08:17:41'}], 'code': '00', 'userid': 51}
+2019-06-11 08:17:42 test_api.py[line:133] INFO ############test_create_blog############
+2019-06-11 08:17:42 test_api.py[line:33] INFO register_user->url: http://localhost:8000/register/
+2019-06-11 08:17:42 test_api.py[line:37] INFO requestData of register: {"username": "wulao42", "password": "wulaoshi2019", "email": "wulao@qq.com"}
+2019-06-11 08:17:43 test_api.py[line:39] INFO resp of register: {'code': '00', 'userid': 100, 'message': '成功'}
+2019-06-11 08:17:43 test_api.py[line:140] INFO username: wulao42
+2019-06-11 08:17:43 test_api.py[line:141] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-06-11 08:17:43 test_api.py[line:45] INFO request data of login_user: {"username": "wulao42", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
+2019-06-11 08:17:44 test_api.py[line:145] INFO resp of test_login_user_existed: {'token': 'da710843834742eca1cc13ae8502c117', 'code': '00', 'userid': 100, 'login_time': '2019-06-11 08:17:44'}
+2019-06-11 08:17:44 test_api.py[line:120] INFO ############test_login_user_not_existed############
+2019-06-11 08:17:44 test_api.py[line:45] INFO request data of login_user: {"username": "wulao401", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
+2019-06-11 08:17:45 test_api.py[line:126] INFO resp of test_login_user_not_existed: {'code': '02', 'message': '参数值不合法，用户不存在'}
+2019-06-11 08:17:45 test_api.py[line:110] INFO ############test_register_user_existed############
+2019-06-11 08:17:45 test_api.py[line:33] INFO register_user->url: http://localhost:8000/register/
+2019-06-11 08:17:45 test_api.py[line:37] INFO requestData of register: {"username": "wulao42", "password": "wulaoshi2019", "email": "wulao@qq.com"}
+2019-06-11 08:17:46 test_api.py[line:39] INFO resp of register: {'code': '01', 'message': '参数值不合法，用户名已存在'}
+2019-06-11 08:17:46 test_api.py[line:33] INFO register_user->url: http://localhost:8000/register/
+2019-06-11 08:17:46 test_api.py[line:37] INFO requestData of register: {"username": "wulao42", "password": "wulaoshi2019", "email": "wulao@qq.com"}
+2019-06-11 08:17:47 test_api.py[line:39] INFO resp of register: {'code': '01', 'message': '参数值不合法，用户名已存在'}
+2019-06-11 08:17:47 test_api.py[line:114] INFO resp of test_register_user_existed: {'code': '01', 'message': '参数值不合法，用户名已存在'}
+2019-06-11 08:17:47 test_api.py[line:89] INFO ############test_register_user_not_existed############
+2019-06-11 08:17:47 test_api.py[line:92] INFO passwordToRegister
+2019-06-11 08:17:47 test_api.py[line:95] INFO try times: 1
+2019-06-11 08:17:47 test_api.py[line:98] INFO username: wulao974
+2019-06-11 08:17:47 test_api.py[line:33] INFO register_user->url: http://localhost:8000/register/
+2019-06-11 08:17:47 test_api.py[line:37] INFO requestData of register: {"username": "wulao974", "password": "wulaoshi2019", "email": "wulao@qq.com"}
+2019-06-11 08:17:48 test_api.py[line:39] INFO resp of register: {'code': '00', 'userid': 101, 'message': '成功'}
+2019-06-11 08:17:48 test_api.py[line:100] INFO resp of test_register_user_not_existed: {'code': '00', 'userid': 101, 'message': '成功'}
+2019-06-11 08:17:48 test_api.py[line:215] INFO ############test_update_blog############
+2019-06-11 08:17:48 test_api.py[line:218] INFO username: wulao224
+2019-06-11 08:17:48 test_api.py[line:220] INFO passwordToRegister: wulaoshi2019
+2019-06-11 08:17:48 test_api.py[line:33] INFO register_user->url: http://localhost:8000/register/
+2019-06-11 08:17:48 test_api.py[line:37] INFO requestData of register: {"username": "wulao224", "password": "wulaoshi2019", "email": "wulao@qq.com"}
+2019-06-11 08:17:49 test_api.py[line:39] INFO resp of register: {'code': '00', 'userid': 102, 'message': '成功'}
+2019-06-11 08:17:49 test_api.py[line:222] INFO respOfRegister: {'code': '00', 'userid': 102, 'message': '成功'}
+2019-06-11 08:17:49 test_api.py[line:226] INFO passwordToLogin: 320c9fe1aed78f466d8e27eed99ac8cf
+2019-06-11 08:17:49 test_api.py[line:45] INFO request data of login_user: {"username": "wulao224", "password": "320c9fe1aed78f466d8e27eed99ac8cf"}
+2019-06-11 08:17:50 test_api.py[line:230] INFO respOfLogin: {'token': 'e2ebe1f45ec1448fbeb27a73de76f390', 'code': '00', 'userid': 102, 'login_time': '2019-06-11 08:17:50'}
+2019-06-11 08:17:50 test_api.py[line:233] INFO useridOfUser: 102
+2019-06-11 08:17:50 test_api.py[line:236] INFO tokenOfUser: e2ebe1f45ec1448fbeb27a73de76f390
+2019-06-11 08:17:50 test_api.py[line:52] INFO request data of create_blog: {"userid": 102, "token": "e2ebe1f45ec1448fbeb27a73de76f390", "title": "mysql", "content": "mysql learn"}
+2019-06-11 08:17:52 test_api.py[line:240] INFO resp of create_blog: {'data': [{'content': 'mysql learn', 'title': 'mysql'}], 'code': '00', 'userid': 102, 'articleId': 87}
+2019-06-11 08:17:52 test_api.py[line:69] INFO request data of get_blogs_of_user: {"userid": 102, "token": "e2ebe1f45ec1448fbeb27a73de76f390"}
+2019-06-11 08:17:53 test_api.py[line:243] INFO respOfGetBlogsOfUser: {'data': [{'update_time': None, 'title': 'mysql', 'content': 'mysql learn', 'articleId': 87, 'owner': 102, 'posted_on': '2019-06-11 08:17:51'}], 'code': '00', 'userid': 102}
+2019-06-11 08:17:53 test_api.py[line:245] INFO articleId: 87
+2019-06-11 08:17:53 test_api.py[line:75] INFO request data of update_blog: {"userid": 102, "token": "e2ebe1f45ec1448fbeb27a73de76f390", "articleId": 87, "title": "update title", "content": "update blog content"}
+2019-06-11 08:17:54 test_api.py[line:250] INFO resp of update_blog: <Response [200]>

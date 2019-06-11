@@ -11,9 +11,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/apiServerGloryRoadSimple2$app.coverage" NAME="app Coverage Results" MODIFIED="1559866539823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/apiServerGloryRoad0607$Unittests_in_test_api_py.coverage" NAME="Unittests in test_api.py Coverage Results" MODIFIED="1559880569178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gloryRoadApi" />
+    <SUITE FILE_PATH="coverage/apiServerGloryRoad0607$test_api.coverage" NAME="test_api Coverage Results" MODIFIED="1560212232457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gloryRoadApi" />
     <SUITE FILE_PATH="coverage/apiServerGloryRoad0607$HTMLTestRunner.coverage" NAME="HTMLTestRunner Coverage Results" MODIFIED="1560047796238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/apiServerGloryRoad0607$app.coverage" NAME="app Coverage Results" MODIFIED="1560041792521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/apiServerGloryRoad0607$unittest_for_gloryroad.coverage" NAME="unittest_for_gloryroad Coverage Results" MODIFIED="1560085642365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gloryRoadApi" />
+    <SUITE FILE_PATH="coverage/apiServerGloryRoad0607$app.coverage" NAME="app Coverage Results" MODIFIED="1560212216095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/apiServerGloryRoad0607$settings.coverage" NAME="settings Coverage Results" MODIFIED="1560124378276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gloryRoadApi" />
+    <SUITE FILE_PATH="coverage/apiServerGloryRoad0607$unittest_for_gloryroad.coverage" NAME="unittest_for_gloryroad Coverage Results" MODIFIED="1560209594928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gloryRoadApi" />
     <SUITE FILE_PATH="coverage/apiServerGloryRoadSimple$DBInitialize.coverage" NAME="DBInitialize Coverage Results" MODIFIED="1559697009042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gloryRoadApi" />
     <SUITE FILE_PATH="coverage/apiServerGloryRoadSimple2$DBInitialize.coverage" NAME="DBInitialize Coverage Results" MODIFIED="1559775816014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gloryRoadApi" />
     <SUITE FILE_PATH="coverage/apiServerGloryRoad0607$temp.coverage" NAME="temp Coverage Results" MODIFIED="1560009118393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gloryRoadApi" />
@@ -26,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gloryRoadApi/unittest_for_gloryroad.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gloryRoadApi/test_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="154">
+              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
               <folding>
                 <element signature="e#18#33#0" expanded="true" />
               </folding>
@@ -39,31 +41,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gloryRoadApi/common/log.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#16#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gloryRoadApi/common/util.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="45" selection-start-line="45" selection-end-line="54" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gloryRoadApi/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="66">
+              <caret line="3" column="12" selection-start-line="3" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -122,10 +103,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="132">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#17#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gloryRoadApi/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#17#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,13 +154,10 @@
         <option value="$PROJECT_DIR$/gloryRoadApi/resources/DBInitialize.py" />
         <option value="$PROJECT_DIR$/gloryRoadApi/common/log.py" />
         <option value="$PROJECT_DIR$/gloryRoadApi/applicattion.py" />
-        <option value="$PROJECT_DIR$/gloryRoadApi/settings.py" />
         <option value="$PROJECT_DIR$/gloryRoadApi/DBInitialize.py" />
         <option value="$PROJECT_DIR$/gloryRoadApi/resources/getBlogContent.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/gloryRoadApi/application.py" />
         <option value="$PROJECT_DIR$/gloryRoadApi/models.py" />
-        <option value="$PROJECT_DIR$/gloryRoadApi/test_api.py" />
         <option value="$PROJECT_DIR$/gloryRoadApi/resources/update.py" />
         <option value="$PROJECT_DIR$/gloryRoadApi/resources/getBlogsContent.py" />
         <option value="$PROJECT_DIR$/gloryRoadApi/resources/delete.py" />
@@ -179,21 +169,24 @@
         <option value="$PROJECT_DIR$/gloryRoadApi/resources/login.py" />
         <option value="$PROJECT_DIR$/gloryRoadApi/unittestReport/report.html" />
         <option value="$PROJECT_DIR$/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/gloryRoadApi/settings.py" />
         <option value="$PROJECT_DIR$/gloryRoadApi/unittest_for_gloryroad.py" />
+        <option value="$PROJECT_DIR$/gloryRoadApi/test_api.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="21" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1378" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,12 +198,6 @@
               <item name="apiServerGloryRoad0607" type="b2602c69:ProjectViewProjectNode" />
               <item name="apiServerGloryRoad0607" type="462c0819:PsiDirectoryNode" />
               <item name="gloryRoadApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apiServerGloryRoad0607" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apiServerGloryRoad0607" type="462c0819:PsiDirectoryNode" />
-              <item name="gloryRoadApi" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apiServerGloryRoad0607" type="b2602c69:ProjectViewProjectNode" />
@@ -228,6 +215,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.unittest_for_gloryroad">
+  <component name="RunManager" selected="Python.test_api">
     <configuration name="DBInitialize" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="apiServerGloryRoadSimple" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,7 +316,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="apiServerGloryRoadSimple" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -336,12 +324,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gloryRoadApi/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gloryRoadApi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gloryRoadApi/common/log.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gloryRoadApi/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -372,7 +360,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_apiserver" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="test_api" type="PythonConfigurationType" factoryName="Python">
       <module name="apiServerGloryRoadSimple" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,28 +374,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gloryRoadApi/test_api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="unittest_for_gloryroad" type="PythonConfigurationType" factoryName="Python">
-      <module name="apiServerGloryRoadSimple" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Lenovo\AppData\Local\Programs\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gloryRoadApi" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\flask\apiServerGloryRoad0607\gloryRoadApi\unittest_for_gloryroad.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -433,21 +399,20 @@
     </configuration>
     <list>
       <item itemvalue="Flask server.apiServerGloryRoadSimple" />
-      <item itemvalue="Python.unittest_for_gloryroad" />
-      <item itemvalue="Python.test_apiserver" />
+      <item itemvalue="Python.test_api" />
       <item itemvalue="Python.app" />
       <item itemvalue="Python.DBInitialize" />
-      <item itemvalue="Python.log" />
       <item itemvalue="Python.temp" />
       <item itemvalue="Python.HTMLTestRunner" />
+      <item itemvalue="Python.settings" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HTMLTestRunner" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.HTMLTestRunner" />
         <item itemvalue="Python.temp" />
         <item itemvalue="Python.DBInitialize" />
-        <item itemvalue="Python.log" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +445,9 @@
       <workItem from="1560007085912" duration="2342000" />
       <workItem from="1560036387206" duration="22860000" />
       <workItem from="1560083490811" duration="2921000" />
-      <workItem from="1560120384119" duration="593000" />
+      <workItem from="1560120384119" duration="2078000" />
+      <workItem from="1560130294353" duration="896000" />
+      <workItem from="1560209303215" duration="3028000" />
     </task>
     <servers />
   </component>
@@ -490,17 +457,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100509000" />
+    <option name="totallyTimeSpent" value="105918000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="0" width="1386" height="788" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17873304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3764321" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4844517" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -596,16 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloryRoadApi/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#17#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17886">
@@ -668,16 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloryRoadApi/test_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
-          <folding>
-            <element signature="e#18#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gloryRoadApi/temp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -702,16 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloryRoadApi/unittest_for_gloryroad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="e#18#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gloryRoadApi/common/log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -722,10 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloryRoadApi/settings.py">
+    <entry file="file://$PROJECT_DIR$/gloryRoadApi/common/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="1100">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -770,20 +707,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gloryRoadApi/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="12" selection-start-line="3" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloryRoadApi/unittest_for_gloryroad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="93" column="26" lean-forward="true" selection-end-line="424" />
+          <folding>
+            <element signature="e#18#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gloryRoadApi/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#17#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="132">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#17#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gloryRoadApi/common/util.py">
+    <entry file="file://$PROJECT_DIR$/gloryRoadApi/test_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="45" selection-start-line="45" selection-end-line="54" selection-end-column="44" />
+        <state relative-caret-position="154">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="e#18#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
